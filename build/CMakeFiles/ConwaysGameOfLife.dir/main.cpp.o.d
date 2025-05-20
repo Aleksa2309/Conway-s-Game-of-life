@@ -1,5 +1,5 @@
 CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: \
- /home/aleksa/Documents/C++_course_projects/Assignments/Conway's\ game\ of\ life/main.cpp \
+ /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -386,4 +386,6 @@ CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QStandardItemModel \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qstandarditemmodel.h
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qstandarditemmodel.h \
+ /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/guiModel.h \
+ /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/cell.h

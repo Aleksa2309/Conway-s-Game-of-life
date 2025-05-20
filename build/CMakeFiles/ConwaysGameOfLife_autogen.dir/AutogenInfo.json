@@ -1,17 +1,17 @@
 {
-	"BUILD_DIR" : "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/ConwaysGameOfLife_autogen",
-	"CMAKE_BINARY_DIR" : "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life",
+	"BUILD_DIR" : "/home/aleksa/Documents/Projects/Conway's game of life/build/ConwaysGameOfLife_autogen",
+	"CMAKE_BINARY_DIR" : "/home/aleksa/Documents/Projects/Conway's game of life/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/aleksa/Documents/Projects/Conway's game of life/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/aleksa/Documents/Projects/Conway's game of life",
 	"CMAKE_EXECUTABLE" : "/opt/cmake/cmake-4.0.2-linux-x86_64/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/CMakeLists.txt",
-		"/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/4.0.2/CMakeSystem.cmake",
+		"/home/aleksa/Documents/Projects/Conway's game of life/CMakeLists.txt",
+		"/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles/4.0.2/CMakeSystem.cmake",
 		"/opt/cmake/cmake-4.0.2-linux-x86_64/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/opt/cmake/cmake-4.0.2-linux-x86_64/share/cmake-4.0/Modules/Platform/Linux-Initialize.cmake",
-		"/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/4.0.2/CMakeCCompiler.cmake",
-		"/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/4.0.2/CMakeCXXCompiler.cmake",
+		"/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles/4.0.2/CMakeCCompiler.cmake",
+		"/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles/4.0.2/CMakeCXXCompiler.cmake",
 		"/opt/cmake/cmake-4.0.2-linux-x86_64/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake",
 		"/opt/cmake/cmake-4.0.2-linux-x86_64/share/cmake-4.0/Modules/CMakeGenericSystem.cmake",
 		"/opt/cmake/cmake-4.0.2-linux-x86_64/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake",
@@ -273,14 +273,34 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
 		"/opt/cmake/cmake-4.0.2-linux-x86_64/share/cmake-4.0/Modules/CMakeParseArguments.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life",
+	"CMAKE_SOURCE_DIR" : "/home/aleksa/Documents/Projects/Conway's game of life",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/ConwaysGameOfLife_autogen/deps",
+	"DEP_FILE" : "/home/aleksa/Documents/Projects/Conway's game of life/build/ConwaysGameOfLife_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "ConwaysGameOfLife_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/cell.h",
+			"MU",
+			"JYXQUSK4HM/moc_cell.cpp",
+			null
+		],
+		[
+			"/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/grid.h",
+			"MU",
+			"JYXQUSK4HM/moc_grid.cpp",
+			null
+		],
+		[
+			"/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/guiModel.h",
+			"MU",
+			"JYXQUSK4HM/moc_guiModel.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/ConwaysGameOfLife_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/ConwaysGameOfLife_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/aleksa/Documents/Projects/Conway's game of life/build/ConwaysGameOfLife_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/aleksa/Documents/Projects/Conway's game of life/build/ConwaysGameOfLife_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -316,21 +336,36 @@
 		"-E",
 		"/opt/cmake/cmake-4.0.2-linux-x86_64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/ConwaysGameOfLife_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/aleksa/Documents/Projects/Conway's game of life/build/ConwaysGameOfLife_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt6/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 2,
-	"SETTINGS_FILE" : "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/main.cpp",
+			"/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/cell.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/grid.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/guiModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/aleksa/Documents/Projects/Conway's game of life/main.cpp",
 			"MU",
 			null
 		]

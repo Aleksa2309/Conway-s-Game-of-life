@@ -57,10 +57,10 @@ RM = /opt/cmake/cmake-4.0.2-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life"
+CMAKE_SOURCE_DIR = "/home/aleksa/Documents/Projects/Conway's game of life"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build"
+CMAKE_BINARY_DIR = "/home/aleksa/Documents/Projects/Conway's game of life/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles" "/home/aleksa/Documents/Projects/Conway's game of life/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -179,6 +179,78 @@ ConwaysGameOfLife_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConwaysGameOfLife.dir/build.make CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.s
 .PHONY : ConwaysGameOfLife_autogen/mocs_compilation.cpp.s
 
+Dependencies/cell.o: Dependencies/cell.cpp.o
+.PHONY : Dependencies/cell.o
+
+# target to build an object file
+Dependencies/cell.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConwaysGameOfLife.dir/build.make CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.o
+.PHONY : Dependencies/cell.cpp.o
+
+Dependencies/cell.i: Dependencies/cell.cpp.i
+.PHONY : Dependencies/cell.i
+
+# target to preprocess a source file
+Dependencies/cell.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConwaysGameOfLife.dir/build.make CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.i
+.PHONY : Dependencies/cell.cpp.i
+
+Dependencies/cell.s: Dependencies/cell.cpp.s
+.PHONY : Dependencies/cell.s
+
+# target to generate assembly for a file
+Dependencies/cell.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConwaysGameOfLife.dir/build.make CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.s
+.PHONY : Dependencies/cell.cpp.s
+
+Dependencies/grid.o: Dependencies/grid.cpp.o
+.PHONY : Dependencies/grid.o
+
+# target to build an object file
+Dependencies/grid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConwaysGameOfLife.dir/build.make CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.o
+.PHONY : Dependencies/grid.cpp.o
+
+Dependencies/grid.i: Dependencies/grid.cpp.i
+.PHONY : Dependencies/grid.i
+
+# target to preprocess a source file
+Dependencies/grid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConwaysGameOfLife.dir/build.make CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.i
+.PHONY : Dependencies/grid.cpp.i
+
+Dependencies/grid.s: Dependencies/grid.cpp.s
+.PHONY : Dependencies/grid.s
+
+# target to generate assembly for a file
+Dependencies/grid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConwaysGameOfLife.dir/build.make CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.s
+.PHONY : Dependencies/grid.cpp.s
+
+Dependencies/guiModel.o: Dependencies/guiModel.cpp.o
+.PHONY : Dependencies/guiModel.o
+
+# target to build an object file
+Dependencies/guiModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConwaysGameOfLife.dir/build.make CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o
+.PHONY : Dependencies/guiModel.cpp.o
+
+Dependencies/guiModel.i: Dependencies/guiModel.cpp.i
+.PHONY : Dependencies/guiModel.i
+
+# target to preprocess a source file
+Dependencies/guiModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConwaysGameOfLife.dir/build.make CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.i
+.PHONY : Dependencies/guiModel.cpp.i
+
+Dependencies/guiModel.s: Dependencies/guiModel.cpp.s
+.PHONY : Dependencies/guiModel.s
+
+# target to generate assembly for a file
+Dependencies/guiModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConwaysGameOfLife.dir/build.make CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.s
+.PHONY : Dependencies/guiModel.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -217,6 +289,15 @@ help:
 	@echo "... ConwaysGameOfLife_autogen/mocs_compilation.o"
 	@echo "... ConwaysGameOfLife_autogen/mocs_compilation.i"
 	@echo "... ConwaysGameOfLife_autogen/mocs_compilation.s"
+	@echo "... Dependencies/cell.o"
+	@echo "... Dependencies/cell.i"
+	@echo "... Dependencies/cell.s"
+	@echo "... Dependencies/grid.o"
+	@echo "... Dependencies/grid.i"
+	@echo "... Dependencies/grid.s"
+	@echo "... Dependencies/guiModel.o"
+	@echo "... Dependencies/guiModel.i"
+	@echo "... Dependencies/guiModel.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

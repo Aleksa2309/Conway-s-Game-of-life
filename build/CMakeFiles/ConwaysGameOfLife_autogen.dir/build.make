@@ -53,10 +53,10 @@ RM = /opt/cmake/cmake-4.0.2-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life"
+CMAKE_SOURCE_DIR = "/home/aleksa/Documents/Projects/Conway's game of life"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build"
+CMAKE_BINARY_DIR = "/home/aleksa/Documents/Projects/Conway's game of life/build"
 
 # Utility rule file for ConwaysGameOfLife_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/ConwaysGameOfLife_autogen: ConwaysGameOfLife_autogen/timestamp
 ConwaysGameOfLife_autogen/timestamp: /usr/lib/qt6/libexec/moc
 ConwaysGameOfLife_autogen/timestamp: /usr/lib/qt6/libexec/uic
 ConwaysGameOfLife_autogen/timestamp: CMakeFiles/ConwaysGameOfLife_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ConwaysGameOfLife"
-	/opt/cmake/cmake-4.0.2-linux-x86_64/bin/cmake -E cmake_autogen "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen.dir/AutogenInfo.json" ""
-	/opt/cmake/cmake-4.0.2-linux-x86_64/bin/cmake -E touch "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/ConwaysGameOfLife_autogen/timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ConwaysGameOfLife"
+	/opt/cmake/cmake-4.0.2-linux-x86_64/bin/cmake -E cmake_autogen "/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen.dir/AutogenInfo.json" ""
+	/opt/cmake/cmake-4.0.2-linux-x86_64/bin/cmake -E touch "/home/aleksa/Documents/Projects/Conway's game of life/build/ConwaysGameOfLife_autogen/timestamp"
 
 CMakeFiles/ConwaysGameOfLife_autogen.dir/codegen:
 .PHONY : CMakeFiles/ConwaysGameOfLife_autogen.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/ConwaysGameOfLife_autogen.dir/clean:
 .PHONY : CMakeFiles/ConwaysGameOfLife_autogen.dir/clean
 
 CMakeFiles/ConwaysGameOfLife_autogen.dir/depend:
-	cd "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/aleksa/Documents/Projects/Conway's game of life/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/aleksa/Documents/Projects/Conway's game of life" "/home/aleksa/Documents/Projects/Conway's game of life" "/home/aleksa/Documents/Projects/Conway's game of life/build" "/home/aleksa/Documents/Projects/Conway's game of life/build" "/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/ConwaysGameOfLife_autogen.dir/depend
 

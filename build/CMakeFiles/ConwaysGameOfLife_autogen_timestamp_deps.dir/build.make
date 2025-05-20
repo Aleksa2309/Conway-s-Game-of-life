@@ -53,10 +53,10 @@ RM = /opt/cmake/cmake-4.0.2-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life"
+CMAKE_SOURCE_DIR = "/home/aleksa/Documents/Projects/Conway's game of life"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build"
+CMAKE_BINARY_DIR = "/home/aleksa/Documents/Projects/Conway's game of life/build"
 
 # Utility rule file for ConwaysGameOfLife_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/ConwaysGameOfLife_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/ConwaysGameOfLife_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/ConwaysGameOfLife_autogen_timestamp_deps.dir/depend:
-	cd "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen_timestamp_deps.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/aleksa/Documents/Projects/Conway's game of life/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/aleksa/Documents/Projects/Conway's game of life" "/home/aleksa/Documents/Projects/Conway's game of life" "/home/aleksa/Documents/Projects/Conway's game of life/build" "/home/aleksa/Documents/Projects/Conway's game of life/build" "/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen_timestamp_deps.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/ConwaysGameOfLife_autogen_timestamp_deps.dir/depend
 

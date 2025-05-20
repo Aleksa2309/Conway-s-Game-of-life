@@ -53,10 +53,10 @@ RM = /opt/cmake/cmake-4.0.2-linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life"
+CMAKE_SOURCE_DIR = "/home/aleksa/Documents/Projects/Conway's game of life"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build"
+CMAKE_BINARY_DIR = "/home/aleksa/Documents/Projects/Conway's game of life/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ConwaysGameOfLife.dir/depend.make
@@ -72,9 +72,9 @@ include CMakeFiles/ConwaysGameOfLife.dir/flags.make
 ConwaysGameOfLife_autogen/timestamp: /usr/lib/qt6/libexec/moc
 ConwaysGameOfLife_autogen/timestamp: /usr/lib/qt6/libexec/uic
 ConwaysGameOfLife_autogen/timestamp: CMakeFiles/ConwaysGameOfLife.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ConwaysGameOfLife"
-	/opt/cmake/cmake-4.0.2-linux-x86_64/bin/cmake -E cmake_autogen "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen.dir/AutogenInfo.json" ""
-	/opt/cmake/cmake-4.0.2-linux-x86_64/bin/cmake -E touch "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/ConwaysGameOfLife_autogen/timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ConwaysGameOfLife"
+	/opt/cmake/cmake-4.0.2-linux-x86_64/bin/cmake -E cmake_autogen "/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen.dir/AutogenInfo.json" ""
+	/opt/cmake/cmake-4.0.2-linux-x86_64/bin/cmake -E touch "/home/aleksa/Documents/Projects/Conway's game of life/build/ConwaysGameOfLife_autogen/timestamp"
 
 CMakeFiles/ConwaysGameOfLife.dir/codegen:
 .PHONY : CMakeFiles/ConwaysGameOfLife.dir/codegen
@@ -82,41 +82,89 @@ CMakeFiles/ConwaysGameOfLife.dir/codegen:
 CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.o: CMakeFiles/ConwaysGameOfLife.dir/flags.make
 CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.o: ConwaysGameOfLife_autogen/mocs_compilation.cpp
 CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.o: CMakeFiles/ConwaysGameOfLife.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.o -MF CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.o -c "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/ConwaysGameOfLife_autogen/mocs_compilation.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.o -MF CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.o -c "/home/aleksa/Documents/Projects/Conway's game of life/build/ConwaysGameOfLife_autogen/mocs_compilation.cpp"
 
 CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/ConwaysGameOfLife_autogen/mocs_compilation.cpp" > CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aleksa/Documents/Projects/Conway's game of life/build/ConwaysGameOfLife_autogen/mocs_compilation.cpp" > CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/ConwaysGameOfLife_autogen/mocs_compilation.cpp" -o CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aleksa/Documents/Projects/Conway's game of life/build/ConwaysGameOfLife_autogen/mocs_compilation.cpp" -o CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: CMakeFiles/ConwaysGameOfLife.dir/flags.make
-CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: /home/aleksa/Documents/C++_course_projects/Assignments/Conway's\ game\ of\ life/main.cpp
+CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/main.cpp
 CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: CMakeFiles/ConwaysGameOfLife.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o -MF CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o.d -o CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o -c "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o -MF CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o.d -o CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o -c "/home/aleksa/Documents/Projects/Conway's game of life/main.cpp"
 
 CMakeFiles/ConwaysGameOfLife.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConwaysGameOfLife.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/main.cpp" > CMakeFiles/ConwaysGameOfLife.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aleksa/Documents/Projects/Conway's game of life/main.cpp" > CMakeFiles/ConwaysGameOfLife.dir/main.cpp.i
 
 CMakeFiles/ConwaysGameOfLife.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConwaysGameOfLife.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/main.cpp" -o CMakeFiles/ConwaysGameOfLife.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aleksa/Documents/Projects/Conway's game of life/main.cpp" -o CMakeFiles/ConwaysGameOfLife.dir/main.cpp.s
+
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o: CMakeFiles/ConwaysGameOfLife.dir/flags.make
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o: /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/guiModel.cpp
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o: CMakeFiles/ConwaysGameOfLife.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o -MF CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o.d -o CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o -c "/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/guiModel.cpp"
+
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/guiModel.cpp" > CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.i
+
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/guiModel.cpp" -o CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.s
+
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.o: CMakeFiles/ConwaysGameOfLife.dir/flags.make
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.o: /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/grid.cpp
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.o: CMakeFiles/ConwaysGameOfLife.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.o -MF CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.o.d -o CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.o -c "/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/grid.cpp"
+
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/grid.cpp" > CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.i
+
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/grid.cpp" -o CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.s
+
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.o: CMakeFiles/ConwaysGameOfLife.dir/flags.make
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.o: /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/cell.cpp
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.o: CMakeFiles/ConwaysGameOfLife.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.o -MF CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.o.d -o CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.o -c "/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/cell.cpp"
+
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/cell.cpp" > CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.i
+
+CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/aleksa/Documents/Projects/Conway's game of life/Dependencies/cell.cpp" -o CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.s
 
 # Object files for target ConwaysGameOfLife
 ConwaysGameOfLife_OBJECTS = \
 "CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o"
+"CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o" \
+"CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o" \
+"CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.o" \
+"CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.o"
 
 # External object files for target ConwaysGameOfLife
 ConwaysGameOfLife_EXTERNAL_OBJECTS =
 
 ConwaysGameOfLife: CMakeFiles/ConwaysGameOfLife.dir/ConwaysGameOfLife_autogen/mocs_compilation.cpp.o
 ConwaysGameOfLife: CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o
+ConwaysGameOfLife: CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o
+ConwaysGameOfLife: CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.o
+ConwaysGameOfLife: CMakeFiles/ConwaysGameOfLife.dir/Dependencies/cell.cpp.o
 ConwaysGameOfLife: CMakeFiles/ConwaysGameOfLife.dir/build.make
 ConwaysGameOfLife: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.2.4
 ConwaysGameOfLife: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.2.4
@@ -124,7 +172,7 @@ ConwaysGameOfLife: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.2.4
 ConwaysGameOfLife: /usr/lib/x86_64-linux-gnu/libGLX.so
 ConwaysGameOfLife: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 ConwaysGameOfLife: CMakeFiles/ConwaysGameOfLife.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ConwaysGameOfLife"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ConwaysGameOfLife"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ConwaysGameOfLife.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,6 +184,6 @@ CMakeFiles/ConwaysGameOfLife.dir/clean:
 .PHONY : CMakeFiles/ConwaysGameOfLife.dir/clean
 
 CMakeFiles/ConwaysGameOfLife.dir/depend: ConwaysGameOfLife_autogen/timestamp
-	cd "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build" "/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/aleksa/Documents/Projects/Conway's game of life/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/aleksa/Documents/Projects/Conway's game of life" "/home/aleksa/Documents/Projects/Conway's game of life" "/home/aleksa/Documents/Projects/Conway's game of life/build" "/home/aleksa/Documents/Projects/Conway's game of life/build" "/home/aleksa/Documents/Projects/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/ConwaysGameOfLife.dir/depend
 
