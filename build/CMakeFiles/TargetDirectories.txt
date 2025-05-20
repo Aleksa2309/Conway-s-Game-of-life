@@ -1,0 +1,5 @@
+/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife.dir
+/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/edit_cache.dir
+/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/rebuild_cache.dir
+/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen_timestamp_deps.dir
+/home/aleksa/Documents/C++_course_projects/Assignments/Conway's game of life/build/CMakeFiles/ConwaysGameOfLife_autogen.dir
