@@ -14,7 +14,12 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
 # Add executable
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} 
+    main.cpp
+    Dependencies/guiModel.cpp
+    Dependencies/grid.cpp
+    Dependencies/cell.cpp
+)
 
 # Link Qt libraries
 target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Widgets) 

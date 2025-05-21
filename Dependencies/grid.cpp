@@ -11,7 +11,9 @@ Grid::Grid(): fieldSize(40) {
     }
 }
 
-void Grid::loadInitialState(Grid* initialGrid) {
+Grid::~Grid() = default;
+
+void Grid::loadInitialState() {
     
     // o o o o o   o o o o o
     // o x o x x   o o x o o 
@@ -19,15 +21,15 @@ void Grid::loadInitialState(Grid* initialGrid) {
     // o o x x x   o x o x x
     // o x o x o   o o o x x
 
-    initialGrid->field[1][1].setState(true);
-    initialGrid->field[1][3].setState(true);
-    initialGrid->field[1][4].setState(true);
-    initialGrid->field[2][0].setState(true);
-    initialGrid->field[3][2].setState(true);
-    initialGrid->field[3][3].setState(true);
-    initialGrid->field[3][4].setState(true);
-    initialGrid->field[4][1].setState(true);
-    initialGrid->field[4][3].setState(true);
+    field[1][1].setState(true);
+    field[1][3].setState(true);
+    field[1][4].setState(true);
+    field[2][1].setState(true);
+    field[3][2].setState(true);
+    field[3][3].setState(true);
+    field[3][4].setState(true);
+    field[4][1].setState(true);
+    field[4][3].setState(true);
 }
 
 void Grid::loadNextGeneration() {
@@ -60,4 +62,12 @@ void Grid::calculateNextGeneration(Grid *currentGrid) {
             }
         }
     }
+}
+
+int Grid::getFieldSize() {
+    return fieldSize;
+}
+
+bool Grid::getCell(int row, int col) {
+    return field[row][col].getState();
 }

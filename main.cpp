@@ -8,6 +8,7 @@
 #include <QVBoxLayout>
 #include <QTableView>
 #include <QStandardItemModel>
+#include "Dependencies/guiModel.h"
 
 using namespace std;
 
@@ -15,8 +16,11 @@ int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
     QWidget window;
 
+    guiModel animation(&window);
+    animation.update();
+    animation.show();
     //Adding a query layout
-    QLabel *label = new QLabel(
+    /*QLabel *label = new QLabel(
         QApplication::translate("toplevel", "Name: ")
     );
 
@@ -59,7 +63,7 @@ int main(int argc, char *argv[]) {
         QApplication::translate("toplevel", "toplevelwidget")
     );
     window.resize(900, 500);
-    window.show();
+    window.show();*/
 
     return app.exec();
 }

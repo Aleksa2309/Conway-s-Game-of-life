@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include "cell.h"
+#include "grid.h"
 
 class guiModel : public QWidget {
 public:
@@ -11,9 +12,9 @@ public:
 protected:
     void paintEvent(QPaintEvent *event) override;
     void mousePressEvent(QMouseEvent *event) override;
-
 private:
-    int cell_Size; //Used for drawing
+    int cellSize; //Used for drawing
+    Grid grid;
 };
 
 

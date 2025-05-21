@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "qpainter": "cpp"
+        "qpainter": "cpp",
+        "vector": "cpp"
     }
 }

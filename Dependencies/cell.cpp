@@ -2,6 +2,8 @@
 
 Cell::Cell(): state(false){}
 
+Cell::~Cell() = default;
+
 bool Cell::getState() {
     return state;
 }
