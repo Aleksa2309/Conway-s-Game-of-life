@@ -467,6 +467,7 @@ CMakeFiles/ConwaysGameOfLife.dir/Dependencies/grid.cpp.o: /home/aleksa/Documents
 
 CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o: /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/guiModel.cpp \
   /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/cell.h \
+  /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/grid.h \
   /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/guiModel.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -726,6 +727,7 @@ CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o: /home/aleksa/Docum
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QRect \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
@@ -747,11 +749,14 @@ CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o: /home/aleksa/Docum
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerfwd.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainerinfo.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qflags.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qgenericatomic.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevicebase.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterable.h \
@@ -759,6 +764,7 @@ CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o: /home/aleksa/Docum
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmargins.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmath.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qmetacontainer.h \
@@ -776,12 +782,15 @@ CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o: /home/aleksa/Docum
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qrefcount.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopedpointer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopeguard.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qsharedpointer_impl.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qsize.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qstring.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringlist.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringliteral.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringmatcher.h \
@@ -791,6 +800,7 @@ CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o: /home/aleksa/Docum
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qsystemdetection.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtaggedpointer.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/qtextstream.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtmetamacros.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qtypeinfo.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qutf8stringview.h \
@@ -838,6 +848,7 @@ CMakeFiles/ConwaysGameOfLife.dir/Dependencies/guiModel.cpp.o: /home/aleksa/Docum
 
 CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/main.cpp \
   /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/cell.h \
+  /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/grid.h \
   /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/guiModel.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -1310,19 +1321,11 @@ CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: /home/aleksa/Documents/Projects/Con
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qregularexpression.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qitemselectionmodel.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qabstractitemmodel.h:
 
@@ -1398,6 +1401,8 @@ CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: /home/aleksa/Documents/Projects/Con
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qstringconverter.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qscopeguard.h:
@@ -1434,6 +1439,8 @@ CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: /home/aleksa/Documents/Projects/Con
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qmath.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qmap.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qiterator.h:
@@ -1444,6 +1451,8 @@ CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: /home/aleksa/Documents/Projects/Con
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qhashfunctions.h:
 
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h:
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobalstatic.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabbar.h:
@@ -1453,6 +1462,8 @@ CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: /home/aleksa/Documents/Projects/Con
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qflags.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qdatastream.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qcontiguouscache.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qconfig.h:
 
@@ -1487,6 +1498,8 @@ CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: /home/aleksa/Documents/Projects/Con
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/QRect:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/QDebug:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
 
@@ -1844,9 +1857,9 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h:
-
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qdebug.h:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt6Gui/Qt6GuiDependencies.cmake:
 

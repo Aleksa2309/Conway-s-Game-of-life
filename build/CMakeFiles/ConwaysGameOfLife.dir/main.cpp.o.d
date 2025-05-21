@@ -388,4 +388,5 @@ CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QStandardItemModel \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qstandarditemmodel.h \
  /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/guiModel.h \
- /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/cell.h
+ /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/cell.h \
+ /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/grid.h
