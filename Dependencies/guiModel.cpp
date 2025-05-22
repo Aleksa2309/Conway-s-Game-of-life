@@ -39,6 +39,7 @@ void guiModel::paintEvent(QPaintEvent *event) {
         x = 0;
         y += cellSize;
     }
+    qDebug() << "\n";
 }
 
 void guiModel::updateGrid() {
