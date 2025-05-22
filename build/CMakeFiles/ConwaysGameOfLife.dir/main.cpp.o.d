@@ -387,6 +387,9 @@ CMakeFiles/ConwaysGameOfLife.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qrubberband.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QStandardItemModel \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qstandarditemmodel.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h \
  /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/guiModel.h \
  /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/cell.h \
  /home/aleksa/Documents/Projects/Conway's\ game\ of\ life/Dependencies/grid.h

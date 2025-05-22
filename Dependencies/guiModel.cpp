@@ -40,3 +40,7 @@ void guiModel::paintEvent(QPaintEvent *event) {
         y += cellSize;
     }
 }
+
+void guiModel::updateGrid() {
+    grid.loadNextGeneration();
+}

@@ -1,5 +1,6 @@
 #include "grid.h"
 #include "cell.h"
+#include <QDebug>
 
 Grid::Grid(): fieldSize(40) {
     field.assign(fieldSize, std::vector<Cell>(fieldSize));
@@ -33,11 +34,24 @@ void Grid::loadInitialState() {
 }
 
 void Grid::loadNextGeneration() {
-
+    Grid nextGen = calculateNextGeneration(this);
+    
+    for(int row = 0; row < fieldSize; row++) {
+        for(int col = 0; col < fieldSize; col++) {
+            field[row][col].setState(nextGen.field[row][col].getState());
+        }
+    }
 }
 
-void Grid::calculateNextGeneration(Grid *currentGrid) {
+Grid Grid::calculateNextGeneration(Grid *currentGrid) {
+    Grid nextGen;
     int aliveNeighbours;
+
+    for(int row = 0; row < fieldSize; row++) {
+        for(int col = 0; col < fieldSize; col++) {
+            nextGen.field[row][col].setState(currentGrid->field[row][col].getState());
+        }
+    }
 
     // o o o
     // o x o
@@ -55,13 +69,16 @@ void Grid::calculateNextGeneration(Grid *currentGrid) {
 
             if(currentGrid->field[row][col].getState() == true) {
                 if (aliveNeighbours < 2 || aliveNeighbours > 3)
-                    currentGrid->field[row][col].setState(false);
+                    nextGen.field[row][col].setState(false);
             }   
             else if(currentGrid->field[row][col].getState() == false && aliveNeighbours == 3) {
-                currentGrid->field[row][col].setState(true);
+                nextGen.field[row][col].setState(true);
             }
         }
     }
+
+    qDebug() << "Next generation" << "\n"; 
+    return nextGen;
 }
 
 int Grid::getFieldSize() {

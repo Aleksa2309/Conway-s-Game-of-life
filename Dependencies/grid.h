@@ -14,7 +14,7 @@ public:
 
     void loadNextGeneration();
 
-    void calculateNextGeneration(Grid* currentGrid);
+    Grid calculateNextGeneration(Grid* currentGrid);
 
     int getFieldSize();
 

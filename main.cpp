@@ -8,6 +8,7 @@
 #include <QVBoxLayout>
 #include <QTableView>
 #include <QStandardItemModel>
+#include <QTimer>
 #include "Dependencies/guiModel.h"
 
 using namespace std;
@@ -17,8 +18,16 @@ int main(int argc, char *argv[]) {
     QWidget window;
 
     guiModel animation(&window);
-    animation.update();
     animation.show();
+
+    QTimer timer;
+    QObject::connect(&timer, &QTimer::timeout, [&animation] () {
+        animation.updateGrid();
+        animation.update();
+    });
+    
+    timer.start(500);
+
     //Adding a query layout
     /*QLabel *label = new QLabel(
         QApplication::translate("toplevel", "Name: ")

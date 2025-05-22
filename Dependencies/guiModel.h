@@ -9,6 +9,8 @@ class guiModel : public QWidget {
 public:
     guiModel(QWidget *parent = nullptr);
 
+    void updateGrid();
+
 protected:
     void paintEvent(QPaintEvent *event) override;
     void mousePressEvent(QMouseEvent *event) override;
